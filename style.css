@@ -79,11 +79,30 @@
 padding-top: 2%;
  }
 .almanaque{
-  width: 70%;
-  margin-left: 15%;
-  margin-top: -10%;
+   width: 90%;
+  margin-left: 35%;
+  margin-top: 20%;
+   display: block;
+  margin: 0 auto;
+   display: block;
+  height: auto; /* esto centra horizontalmente */
+  margin-top: 5%;
  
 }
+.masinfo{
+   width: 100%;
+  margin-left: 35%;
+  margin-top: 20%;
+   display: block;
+  margin: 0 auto;
+   display: block;
+  height: auto; /* esto centra horizontalmente */
+  margin-top: 10%;
+ 
+}
+
+
+
 .flor{
   width: 33%;
   margin-left: 35%;
@@ -183,20 +202,14 @@ margin-top: -17%;
     display: block;
   margin: 0 auto; /* esto centra horizontalmente */
 }
-.almanaque{
-  width: 90%;
-  margin-left: 18%;
-    display: block;
-  margin: 0 auto; /* esto centra horizontalmente */
-}
+
 .numero{
-  width: 50%;
+  width: 60%;
   margin-left: 35%;
-  margin-top: 10%;
+  margin-top: 20%;
    display: block;
   margin: 0 auto;
    display: block;
-  width: 100%;
   height: auto; /* esto centra horizontalmente */
 }
  .anillo{
@@ -226,66 +239,20 @@ margin-top: -17%;
    
 }
 .primary1 {
-  min-width: 120px;
-  height: 40px;
-  color: #fff;
-  padding: 7px 5px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  outline: none;
-  overflow: hidden;
-  border-radius: 5px;
-  border: none;
-  background-color: #a48b70;
-  margin-top: 5%;
-  text-decoration: none;
-  font-family: 'Julius Sans One', sans-serif;
-  background-size: 55%;
-}
-.primary2 {
-   min-width: 120px;
-  height: 40px;
-  color: #fff;
-  padding: 7px 5px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  outline: none;
-  overflow: hidden;
-  border-radius: 5px;
-  border: none;
-  background-color: #a48b70;
-  margin-top: 5%;
-  text-decoration: none;
-  font-family: 'Julius Sans One', sans-serif;
-  background-size: 55%;
-}
-
-.primary3 {
-  text-decoration: none;
-  text-align: center;
-  min-width: 130px;
-  height: 40px;
-  color: #202020;
-  padding: 7px 5px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  outline: none;
-  overflow: hidden;
-  border-radius: 5px;
-  border: none;
-  background-color: #ffffff;
-  margin-top: 5%;
-  font-family: 'Julius Sans One', sans-serif;
-  background-size: 55%;
+    background-color: #1a1a1a;     /* negro suave */
+  color: #ffffff;                /* texto blanco */
+   font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;     /* todo en mayúsculas */
+  font-size: 14px;
+  padding: 8px 25px;            /* alto y ancho del botón */
+  border-radius: 15px;           /* bordes redondeados */
+  text-decoration: none;         /* sin subrayado */
+  display: inline-block;         /* se comporta como botón */
+  letter-spacing: 1px;           /* espacio entre letras */
+  transition: background-color 0.3s;
+   display: block;
+  margin: 0 auto; 
+  margin-top: 3%;
 }
 
 .btn-playlist{
@@ -370,19 +337,49 @@ margin-top: -17%;
    
 }
 
-
-
-
-
-.percha{
-  width: 15%;
-  margin-left: 43%;
-  margin-top: 6%;
+.parrafo10{
+   text-align: center;
+ font-family: "Playfair Display", serif;
+   font-size: 15px;
+   color: #242424;
+   font-weight: 400;
+   margin-top: -8%;
+   
 }
-.regalo{
-  width: 12%;
-  margin-left: 46%;
+
+.parrafo11{
+    text-align: center;
+ font-family: "Montserrat", sans-serif;
+   font-size: 15px;
+   color: #242424;
+   margin-top: 8%;
+   font-weight: 400;
+   
+}
+
+.parrafo12{
+    text-align: center;
+ font-family: "Montserrat", sans-serif;
+   font-size: 15px;
+   color: #242424;
+   margin-top: -2%;
+   font-weight: 400;
+   
+}
+.ubicacion{
+  display: block;
+  margin: 0 auto;
+  width: 8%;
   margin-top: 10%;
+}
+.dress{
+    width: 100%;
+  margin-left: 35%;
+  margin-top: 25%;
+   display: block;
+  margin: 0 auto;
+   display: block;
+  height: auto; /* esto centra horizontalmente */
 }
 .cbu{
   width: 110%;
@@ -393,17 +390,17 @@ margin-top: -17%;
 
 
 .chat{
-width: 13%;
-margin-left: 43%;
-margin-top: -239%;
+width: 9%;
+margin-left: 45%;
+margin-top: -145%;
 
 
   }
 
   .chat2{
-   width: 13%;
-margin-left: 43%;
-margin-top: -100%;
+   width: 9%;
+margin-left: 45%;
+margin-top: -70%;
     }
   .a{
     text-decoration: none;
