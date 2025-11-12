@@ -189,10 +189,22 @@ margin-top: -17%;
     display: block;
   margin: 0 auto; /* esto centra horizontalmente */
 }
-.sport{
-  width: 36%;
+.numero{
+  width: 50%;
   margin-left: 35%;
- }
+  margin-top: 10%;
+   display: block;
+  margin: 0 auto;
+   display: block;
+  width: 100%;
+  height: auto; /* esto centra horizontalmente */
+}
+ .anillo{
+  width: 12%;
+  margin-left: 18%;
+    display: block;
+  margin: 0 auto; /* esto centra horizontalmente */
+}
 
 .cajados{
   background-color: #a48b70;
@@ -321,27 +333,41 @@ margin-top: -17%;
    
 }
 .parrafo7{
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  color: #ffffff;
-  margin-top: 5%;
-  text-align: center;
+ 
+  background-color: #1a1a1a;     /* negro suave */
+  color: #ffffff;                /* texto blanco */
+   font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;     /* todo en mayúsculas */
+  font-size: 14px;
+  padding: 8px 25px;            /* alto y ancho del botón */
+  border-radius: 15px;           /* bordes redondeados */
+  text-decoration: none;         /* sin subrayado */
+  display: inline-block;         /* se comporta como botón */
+  letter-spacing: 1px;           /* espacio entre letras */
+  transition: background-color 0.3s;
+}
+
+
+.centrado{
+    text-align: center;
+  margin-top: 20px;
 }
 
 .parrafo8{
-    font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  color: #414141;
-  margin-top: 5%;
-  text-align: center;
+    text-align: center;
+ font-family: "Montserrat", sans-serif;
+   font-size: 15px;
+   color: #242424;
+   margin-top: 2%;
 }
 .parrafo9{
-  text-align: center;
- font-family: "Playfair Display", serif;
-   font-size: 23px;
-  color:  #242424;
-   font-weight: 500;
-   margin-top: 10%;
+    text-align: center;
+ font-family: "Montserrat", sans-serif;
+   font-size: 18px;
+   color: #242424;
+   margin-top: 8%;
+   font-weight: 400;
+   
 }
 
 
@@ -363,37 +389,21 @@ margin-top: -17%;
   margin-left: -3%;
   
 }
-.fraseregalo{
- width: 46%;
-  margin-left: 28%;
-  margin-top: -17%;
-}
 
-.coral-1{
-  width: 25%;
-  margin-left: -50%;
-  margin-top: -2%;
-}
 
-.andres{
-  width: 25%;
-  margin-left: -50%;
-}
+
 .chat{
-  width:20%;
-    margin-left: 40%;
-    margin-top: -5%;
+width: 13%;
+margin-left: 43%;
+margin-top: -239%;
+
+
   }
 
-.linea-1{
-  width: 60%;
-  color: #414141;
-  margin-left: 20%;
-}
   .chat2{
-    width:20%;
-      margin-left: 40%;
-      margin-top: -5%;
+   width: 13%;
+margin-left: 43%;
+margin-top: -100%;
     }
   .a{
     text-decoration: none;
