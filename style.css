@@ -218,12 +218,14 @@ margin-top: -17%;
     display: block;
   margin: 0 auto; /* esto centra horizontalmente */
 }
-
-.cajados{
-  background-color: #a48b70;
-  padding: 5 5 ;
-  margin-top: 8%;
+.regalo {
+  width: 7%;
+  margin-left: 18%;
+    display: block;
+  margin: 0 auto; /* esto centra horizontalmente */
 }
+
+
 
 
 
@@ -236,7 +238,7 @@ margin-top: -17%;
    color: #272727;
    font-weight: 500;
   margin: 5 5 8;
-  margin-left: 5;
+
    
 }
 .primary1 {
@@ -256,41 +258,18 @@ margin-top: -17%;
   margin-top: 3%;
 }
 
-.btn-playlist{
-  min-width: 120px;
-  height: 40px;
-  color: #fff;
-  padding: 8px 7px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  outline: none;
-  overflow: hidden;
-  border-radius: 5px;
-  border: none;
-  background-color: #a48b70;
-  margin-top: 5%;
-  text-decoration: none;
-  font-family: 'Julius Sans One', sans-serif;
-  background-size: 55%;
-  font-size: 15px;
-}
 
-.boton4{
-  text-align: center;
-}
-.boton3{
-  text-align: center;
-}
-.boton2{
-  text-align: center;
-}
-.boton1{
-  text-align: center;
-}
 
+
+.parrafofecha{
+   text-align: center;
+ font-family: "Montserrat", sans-serif;
+   font-size: 16px;
+   color: #242424;
+   margin-top: 3%;
+   text-decoration: none;
+    
+}
 
 .parrafo6{
    text-align: center;
@@ -298,6 +277,7 @@ margin-top: -17%;
    font-size: 15px;
    color: #242424;
    margin-top: 2%;
+ 
    
 }
 .parrafo7{
@@ -353,7 +333,7 @@ margin-top: -17%;
  font-family: "Montserrat", sans-serif;
    font-size: 15px;
    color: #242424;
-   margin-top: 8%;
+   margin-top: 6%;
    font-weight: 400;
    
 }
